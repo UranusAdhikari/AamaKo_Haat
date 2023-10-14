@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "158979702106",
+    "project_id": "aamako-haat",
+    "storage_bucket": "aamako-haat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158979702106:android:11498a6b0808a1e5140763",
+        "android_client_info": {
+          "package_name": "com.food.aamakohaat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqnx2nNsB04K-dxBncpEutmT7JvFjZfso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

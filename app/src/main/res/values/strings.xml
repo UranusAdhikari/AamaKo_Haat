@@ -1,0 +1,68 @@
+<resources>
+
+
+    <string name="app_name">AamaKo Haat</string>
+    <string name="version">Version 1.0.0 © AamaKo Haat Pvt.Ltd</string>
+
+    <string name="app_description_part1">AamaKo Haat is a food delivery app that connects you with the best home-cooked meals made by Nepali people. Whether you are a mother, a student, a professional, or anyone who loves to cook and share food, you can join our app as a home chef and post your dishes and earn income for yourself. Whether you are craving for a traditional dal bhat, a spicy momo, or a sweet achar, you can find it on our app and get it delivered to your doorstep in no time. Our app is not only for specific foods, but for all kinds of delicious and nutritious dishes that reflect the Nepali culture and cuisine.</string>
+
+    <string name="app_description_part2">Our motto is to help other people get to taste the food of Nepali people, who are skilled and caring in preparing food for their families and customers. We believe that food is not just a necessity, but also a way of expressing love and gratitude. That is why we are committed to providing you with the best service and quality, and to supporting the livelihoods and empowerment of Nepali people. Join us today and discover the amazing flavors and stories of AamaKo Haat.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_chef">ChefActivity</string>
+    <string name="title_activity_cart">CartActivity</string>
+    <string name="title_activity_more">MoreActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+    <string-array name="DishName">
+        <item>Thepla</item>
+        <item>Dal Rice</item>
+        <item>Dhokla</item>
+        <item>Sabji Roti</item>
+        <item>Kadhi Khichdi</item>
+        <item>Puri bhaji</item>
+        <item>Dal Dhokdi</item>
+        <item>Undhiyu</item>
+        <item>Aloo Paratha</item>
+        <item>Patra</item>
+        <item>Khandvi</item>
+        <item>Gulab Jamun</item>
+        <item>SevTomato bhakri</item>
+        <item>Shrikhand</item>
+        <item>Palak Paneer</item>
+        <item>Khulcha</item>
+        <item>Makki di roti</item>
+        <item>Gobi Partha</item>
+        <item>Biryani</item>
+        <item>Rajma</item>
+        <item>Bhindi Fry</item>
+        <item>Dum Biryani</item>
+        <item>Rumali roti</item>
+        <item>Dal Makhni</item>
+        <item>Samosa</item>
+        <item>Kachori</item>
+        <item>Menduwada</item>
+        <item>Pulav</item>
+        <item>Pav Bhaji</item>
+        <item>Misal Pav</item>
+        <item>Mix Vegetable</item>
+        <item>Muffins</item>
+        <item>DalFry JerraRice</item>
+        <item>Bengali sweet</item>
+        <item>Puranpoli</item>
+        <item>Egg Curry</item>
+        <item>Pomfret Fish</item>
+        <item>Egg Bhurji</item>
+        <item>Dum chicken</item>
+        <item>Hyderabadi Chicken Biryni</item>
+    </string-array>
+
+
+</resources>

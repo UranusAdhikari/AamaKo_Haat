@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:background="@color/official"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      tools:ignore="MissingConstraints">
+
+    <androidx.cardview.widget.CardView
+        android:background="@color/official"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardMaxElevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+      <RelativeLayout
+          android:background="@color/official"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/img_internet" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_below="@id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amaranth_bold"
+            android:padding="20dp"
+            android:text="No Internet Connection"
+            android:textColor="@color/white"
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:layout_marginTop="-28dp"
+            android:fontFamily="@font/amaranth"
+            android:padding="20dp"
+            android:text="You need an internet connection to use this feature. Please check your internet connection and try again."
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/try_again_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="3dp"
+            android:clickable="true"
+            android:elevation="2dp"
+            android:focusable="true"
+            android:text="Try Again"
+            android:textColor="@color/red"
+            app:backgroundTint="@color/official"
+            android:theme="@style/Widget.MaterialComponents.Button"
+            />
+
+
+      </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
