@@ -9,7 +9,7 @@
     <!-- ScrollView for the main content -->
     <ScrollView
         android:id="@+id/scrool"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
@@ -20,7 +20,7 @@
         <LinearLayout
             android:id="@+id/main_container"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
             <!-- Your content goes here -->
